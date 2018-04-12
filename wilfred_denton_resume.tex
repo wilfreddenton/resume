@@ -81,15 +81,6 @@
 \section{About}
 	{Curious, problem solving, full-stack software engineer currently employed at Symbiont. Looking for work in the blockchain/P2P field. Enjoys working with people and can be both a contributing member of a group as well as an effective leader. Can learn and understand new concepts efficiently and apply them when necessary.}
 
-%-----------EDUCATION-----------------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {The Ohio State University}{Columbus, OH}
-      {Bachelors of Science in Computer Science \& Engineering;  GPA: 3.6}
-      {Aug. 2012 -- May. 2016}
-  \resumeSubHeadingListEnd
-
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
@@ -98,43 +89,96 @@
       {Symbiont}{New York, NY}
       {Software Engineer}{Aug 2017 - Present}
       \resumeItemListStart
-        \resumeItem{Smart Contract SDK}
-          {Designing and developing a smart contract library for the Symbiont blockchain platform. Haskell, Go, and Python were used extensively}
-        \resumeItem{???}
-          {TBD}
+        \resumeItem{Smart Contract Language}
+          {Designing and developing a smart contract language and SDK for the Symbiont blockchain platform. Python was used heavily.}
+        \resumeItem{Command Line Interface}
+          {Contributed to the Symbiont CLI. It provides a convenient way to deploy and manage nodes. The CLI is written in Haskell.}
       \resumeItemListEnd
 
     \resumeSubheading
       {IBM Watson}{New York, NY}
-      {Senior Software Engineer}{Aug 2016 - Aug 2017}
+      {Software Engineer}{Aug 2016 - Aug 2017}
       \resumeItemListStart
-        \resumeItem{Notifications}
-          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
-        \resumeItem{Nostos}
-          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
+        \resumeItem{Conversational Agents}
+          {Contributed to a service that provides businesses in a variety of
+            industries a simple way to create virtual agents that can assist
+            their customers. Worked on both the React front-end and the Go back-end.}
+        \resumeItem{Notifications Service}
+          {Created a notifications service that could be utilized by many services across IBM Watson to provide users with announcements and updates. The front-end is in Vue and the back-end in Go}
       \resumeItemListEnd
+
+    \resumeSubheading
+      {IBM Watson Internship}{New York, NY}
+      {Software Engineer}{Jun 2015 - Aug 2015}
+      \resumeItemListStart
+        \resumeItem{Cognitive News Application}
+          {Created a ``cognitive'' news aggrigator and summarizer. Wrote both front-end and back-end code in React and Node.js respectively.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {The Office of Research at the Ohio State University}{Columbus, OH}
+      {Software Engineer}{Aug 2013 - Aug 2014}
+      \resumeItemListStart
+        \resumeItem{CRUD Applications}
+          {Worked on a variety of CRUD applications written in PHP for researches across the university.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {The Ohio State University}{Columbus, OH}
+    {Bachelors of Science in Computer Science \& Engineering;  GPA: 3.6}
+    {Aug. 2012 -- May. 2016}
+  \resumeSubheading
+    {The Wellington School}{Columbus, OH}
+    {GED;  GPA: 3.8}
+    {Aug. 2008 -- May. 2012}
   \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
+    \resumeSubItem{Baghodler}
+      {A cryptocurrency portfolio tracker. It consumes many cryptocurrency
+        exchange APIs to fetch trade history, normalizes the trades, and finally
+        computes statistics from the trades. Written in Python.}
     \resumeSubItem{UDP Hole Punching}
-      {Learned about the difficulties of creating and maintaining peer to peer [P2P] connections and how to solve them by reading a variety of relevant research papers and standards proposals. Created an experimental encrypted P2P chat application that uses the hole punching algorithm to create a direct connection between peers behind network address translator [NAT] routers.}
-    \resumeSubItem{???}
-      {TBD}
+      {Learned about the difficulties of creating and maintaining peer to peer
+        [P2P] connections and how to solve them by reading a variety of relevant
+        research papers and standards proposals. Created an experimental
+        encrypted P2P chat application that uses the hole punching algorithm to
+        create a direct connection between peers behind network address
+        translator routers.}
+    \resumeSubItem{Safe Payment Distributed App}
+      {This payments system was created to learn more about distributed apps and
+        the Ethereum platform. It allows users to securely purchase real world
+        items with Ether. It ensures that both the purchaser receives the items
+        she bought and that the seller receives the payment by holding Ether as collateral}
   \resumeSubHeadingListEnd
 
 %
-%--------PROGRAMMING SKILLS------------
-%\section{Programming Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
-%      \hfill
-%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-%    }
-%  \resumeSubHeadingListEnd
+%--------SKILLS------------
+\section{Skills}
+ \resumeSubHeadingListStart
+   \resumeSubItem{Languages}
+     {Python, Javascript, Go, Haskell, C, PHP, SQL}
+   \resumeSubItem{Front-end}
+     {HTML, CSS3, SASS, Bootstrap, Webpack, React, Vue}
+   \resumeSubItem{Database}
+     {MySQL, SQLite, PostgreSQL, MongoDB}
+   \resumeSubItem{Devops}
+     {Docker, Kubernetes}
+ \resumeSubHeadingListEnd
 
+%-----------AWARDS-----------------
+% \section{Awards}
+% - The Ohio State University Trustees Scholarship (2012 - 2016)
+
+% - The Ohio State University Honors Program (2012 - 2016)
+
+% - The Wellington School Merit Scholarship (2008 - 2012)
 
 %-------------------------------------------
 \end{document}
