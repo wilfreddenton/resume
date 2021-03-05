@@ -79,7 +79,7 @@
 
 %-----------BLERB---------------------
 \section{About}
-	{Curious, problem solving, full-stack software engineer currently employed at Symbiont. Looking for work in the blockchain/P2P field. Enjoys working with people and can be both a contributing member of a group as well as an effective leader. Can learn and understand new concepts efficiently and apply them when necessary.}
+	{Curious, problem solving, full-stack software engineer currently employed at Symbiont. Looking to work on distributed systems. Enjoys working with people and can be both a contributing member of a group as well as an effective leader. Can learn and understand new concepts efficiently and apply them when necessary.}
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
@@ -90,9 +90,11 @@
       {Software Engineer}{Aug 2017 - Present}
       \resumeItemListStart
         \resumeItem{Smart Contract Language}
-          {Designing and developing a smart contract language and SDK for the Symbiont blockchain platform. Python was used heavily.}
-        \resumeItem{Command Line Interface}
-          {Contributing to the Symbiont CLI. It provides a convenient way to deploy and manage nodes. The CLI is written in Haskell.}
+          {Designing and developing a smart contract language and SDK for the Symbiont blockchain platform. Written in Python.}
+        \resumeItem{Transaction Processor}
+          {Contributing to the Transaction processing layer of the Symbiont node. It reads transactions from the log layer and processes them. Written in Haskell.}
+        \resumeItem{Distributed Log}
+          {Refactoring and polishing the distributed log layer of the Symbiont node. It orders transactions using a BFT consensus algorithm. Written in Go.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -140,10 +142,12 @@
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{Baghodler}
-      {A cryptocurrency portfolio tracker. It consumes many cryptocurrency
-        exchange APIs to fetch trade history, normalizes the trades, and finally
-        computes statistics from the trades. Written in Python.}
+    \resumeSubItem{KeebWeeb}
+      {A typing test website that prompts users with quotes from famous anime.
+      	It measures their typing speed and accuracy in real time, visualizing this
+      	data on a chart created with d3.js. This project is an experiment in writing
+      	"vanilla" JavaScript in a React-like style. Can the flux pattern work
+      	without a virtual DOM?}
     \resumeSubItem{UDP Hole Punching}
       {Learned about the difficulties of creating and maintaining peer to peer
         [P2P] connections and how to solve them by reading a variety of relevant
@@ -151,11 +155,10 @@
         encrypted P2P chat application that uses the hole punching algorithm to
         create a direct connection between peers behind network address
         translator routers.}
-    \resumeSubItem{Safe Payment Distributed App}
-      {This payments system was created to learn more about distributed apps and
-        the Ethereum platform. It allows users to securely purchase real world
-        items with Ether. It ensures that both the purchaser receives the items
-        she bought and that the seller receives the payment by holding Ether as collateral.}
+    \resumeSubItem{Baghodler}
+      {A cryptocurrency portfolio tracker. It consumes many cryptocurrency
+        exchange APIs to fetch trade history, normalizes the trades, and finally
+        computes statistics from the trades. Written in Python.}
   \resumeSubHeadingListEnd
 
 %
@@ -163,7 +166,7 @@
 \section{Skills}
  \resumeSubHeadingListStart
    \resumeSubItem{Languages}
-     {Python, Javascript, Go, Haskell, C, PHP, SQL}
+     {Python, JavaScript, TypseScript, Go, Haskell, C, SQL}
    \resumeSubItem{Front-end}
      {HTML, CSS3, SASS, Bootstrap, Webpack, React, Vue}
    \resumeSubItem{Database}
