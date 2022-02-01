@@ -94,7 +94,7 @@
         \resumeItem{Transaction Processor}
           {Contributing to the transaction processing layer of the Symbiont node. It reads transactions from the log layer and processes them. Written in Haskell.}
         \resumeItem{Distributed Log}
-          {Refactoring and polishing the distributed log layer of the Symbiont node. It orders transactions using a BFT consensus algorithm. Written in Go.}
+          {Refactoring and updating the distributed log layer of the Symbiont node. It orders transactions using a BFT consensus algorithm. Written in Go.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -142,23 +142,20 @@
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{KeebWeeb}
-      {A typing test website that prompts users with quotes from famous anime.
-      	It measures their typing speed and accuracy in real time, visualizing this
-      	data on a chart created with d3.js. This project is an experiment in writing
-      	"vanilla" JavaScript in a React-like style. Can the flux pattern work
-      	without a virtual DOM?}
-    \resumeSubItem{UDP Hole Punching}
+    \resumeSubItem{\href{https://github.com/wilfreddenton/merkle}{Merkle}}
+      {A merkle tree implementation in Go.}
+    \resumeSubItem{\href{https://github.com/wilfreddenton/safe-payment-dapp}{Safe Payment Decentralized App}}
+      {This payments system was created to learn more about decentralized apps and
+        the Ethereum platform. It allows users to securely purchase real world
+        items with Ether. It ensures that both the purchaser receives the items
+        they bought and that the seller receives the payment by holding Ether as collateral.}
+    \resumeSubItem{\href{https://github.com/wilfreddenton/udp-hole-punching}{UDP Hole Punching}}
       {Learned about the difficulties of creating and maintaining peer to peer
         [P2P] connections and how to solve them by reading a variety of relevant
         research papers and standards proposals. Created an experimental
         encrypted P2P chat application that uses the hole punching algorithm to
         create a direct connection between peers behind network address
         translator routers.}
-    \resumeSubItem{Baghodler}
-      {A cryptocurrency portfolio tracker. It consumes many cryptocurrency
-        exchange APIs to fetch trade history, normalizes the trades, and finally
-        computes statistics from the trades. Written in Python.}
   \resumeSubHeadingListEnd
 
 %
@@ -166,11 +163,11 @@
 \section{Skills}
  \resumeSubHeadingListStart
    \resumeSubItem{Languages}
-     {Python, JavaScript, TypseScript, Go, Haskell, C, SQL}
+     {Python, JavaScript, TypseScript, Go, Haskell, Rust, SQL}
    \resumeSubItem{Front-end}
-     {HTML, CSS3, SASS, Bootstrap, Webpack, React, Vue}
+     {HTML, CSS3, SASS, Bootstrap, Webpack, Parcel, React, Vue}
    \resumeSubItem{Database}
-     {MySQL, SQLite, PostgreSQL, MongoDB}
+     {SQLite, PostgreSQL, MongoDB, LevelDB}
    \resumeSubItem{Devops}
      {Docker, Kubernetes}
  \resumeSubHeadingListEnd
