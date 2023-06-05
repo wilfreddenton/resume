@@ -78,23 +78,33 @@
 \end{tabular*}
 
 %-----------BLERB---------------------
-\section{About}
-	{Curious, problem solving, full-stack software engineer currently employed at Symbiont. Looking to work on distributed systems. Enjoys working with people and can be both a contributing member of a group as well as an effective leader. Can learn and understand new concepts efficiently and apply them when necessary.}
+% \section{About}
+% 	{Curious, problem solving, full-stack software engineer currently employed at Symbiont. Looking to work on distributed systems. Enjoys working with people and can be both a contributing member of a group as well as an effective leader. Can learn and understand new concepts efficiently and apply them when necessary.}
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
 
     \resumeSubheading
+      {City Storage Systems (Cloud Kitchens)}{New York, NY}
+      {Software Engineer}{Sep 2022 - Present}
+      \resumeItemListStart
+        \resumeItem{UI Component System}
+          {Contributing to the React based UI component system used across all external and internal applications}
+        \resumeItem{Billing Application}
+          {Working across the stack on a billing application critical to the core business. Technologies used: Java, GraphQL, GRPC, Typescript, React}
+      \resumeItemListEnd
+
+    \resumeSubheading
       {Symbiont}{New York, NY}
-      {Software Engineer}{Aug 2017 - Present}
+      {Software Engineer}{Aug 2017 - Sep 2022}
       \resumeItemListStart
         \resumeItem{Smart Contract Language}
-          {Designing and developing a smart contract language and SDK for the Symbiont blockchain platform. Written in Python.}
+          {Designed and developed a smart contract language and SDK for the Symbiont blockchain platform. Written in Python.}
         \resumeItem{Transaction Processor}
-          {Contributing to the transaction processing layer of the Symbiont node. It reads transactions from the log layer and processes them. Written in Haskell.}
+          {Contributed to the transaction processing layer of the Symbiont node. It reads transactions from the log layer and processes them. Written in Haskell.}
         \resumeItem{Distributed Log}
-          {Refactoring and updating the distributed log layer of the Symbiont node. It orders transactions using a BFT consensus algorithm. Written in Go.}
+          {Refactored and improved the distributed log layer of the Symbiont node. It orders transactions using a BFT consensus algorithm. Written in Go.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -114,7 +124,7 @@
       {Software Engineer}{Jun 2015 - Aug 2015}
       \resumeItemListStart
         \resumeItem{Cognitive News Application}
-          {Created a ``cognitive'' news aggregator and summarizer. Wrote both front-end and back-end code in React and Node.js respectively.}
+          {Created a machine learning powered news aggregator and summarizer. Wrote both front-end and back-end code in React and Node.js respectively.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -142,17 +152,12 @@
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
+    \resumeSubItem{\href{https://github.com/wilfreddenton/stoic}{Stoic (Static Site Generator)}}
+      {Written in async Rust, Stoic was built to generate my personal website/blog and to learn the new async runtime.}
     \resumeSubItem{\href{https://github.com/wilfreddenton/merkle}{Merkle}}
       {A merkle tree implementation in Go.}
-    \resumeSubItem{\href{https://github.com/wilfreddenton/safe-payment-dapp}{Safe Payment Decentralized App}}
-      {This payments system was created to learn more about decentralized apps and
-        the Ethereum platform. It allows users to securely purchase real world
-        items with Ether. It ensures that both the purchaser receives the items
-        they bought and that the seller receives the payment by holding Ether as collateral.}
     \resumeSubItem{\href{https://github.com/wilfreddenton/udp-hole-punching}{UDP Hole Punching}}
-      {Learned about the difficulties of creating and maintaining peer to peer
-        [P2P] connections and how to solve them by reading a variety of relevant
-        research papers and standards proposals. Created an experimental
+      {Created an experimental
         encrypted P2P chat application that uses the hole punching algorithm to
         create a direct connection between peers behind network address
         translator routers.}
@@ -165,7 +170,7 @@
    \resumeSubItem{Languages}
      {Python, JavaScript, TypseScript, Go, Haskell, Rust, SQL}
    \resumeSubItem{Front-end}
-     {HTML, CSS3, SASS, Bootstrap, Webpack, Parcel, React, Vue}
+     {HTML, CSS3, SASS, Bootstrap, Webpack, Vite, Parcel, React, Vue}
    \resumeSubItem{Database}
      {SQLite, PostgreSQL, MongoDB, LevelDB}
    \resumeSubItem{Devops}
